@@ -1,0 +1,22 @@
+/* ************ MODES **************** */
+
+void input_time() {
+	set_cursor(0, 1);
+	print("HH:mm MM/DD/YYYY");
+	set_cursor(0, 0);
+}
+
+void confirmation() {
+	int origin = mode;
+	set_cursor(0, 1);
+	print("CONFIRM? Y*/N#");
+	mode = 5;
+	while(mode == 5) {
+		
+	}
+}
+
+void input_freq() {
+
+}
+
